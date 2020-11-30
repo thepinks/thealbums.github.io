@@ -1,0 +1,26 @@
+@import './variables';
+
+nav {
+    justify-content: flex-start;
+    a {
+        width: 12%;
+    }
+    hr {
+        height: 70%;
+    }
+}
+
+.main {
+    h2 {
+        padding-left: 5px;
+    }
+}
+
+.images {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+
+.fruit {
+    width: 30vw;
+}

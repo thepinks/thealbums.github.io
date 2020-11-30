@@ -1,0 +1,37 @@
+@import './variables';
+
+header {
+    width: 71.25rem;
+    h1 {
+        margin: 0px 0px 5px 0px;
+    }
+    p {
+        margin: 0px 0px 5px 0px;
+    }
+}
+
+nav {
+    width: 71.25rem;
+}
+
+.main {
+    width: 71.35rem;
+    h2 {
+        width: 71.25rem;
+        padding-left: 0px;
+    }
+}
+
+.images {
+    width: 71.25rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+}
+
+.fruit {
+    width: 100%;
+}
+
+footer {
+    width: 71.24rem;
+}
